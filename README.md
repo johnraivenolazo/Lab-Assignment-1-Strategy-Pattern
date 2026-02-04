@@ -1,5 +1,7 @@
 # Lab-Assignment-1-Strategy-Pattern
 
+![UML Diagram](UMLDiagram.png)
+
 ## Overview
 
 This simple Java project demonstrates the Strategy design pattern. Characters (Knight, Wizard, Archer)
@@ -24,39 +26,3 @@ There are two strategy interfaces:
      - `Shield`
      - `Dodge`
      - `CreateMagic`
-
-## UML Diagram
-
-The following diagram shows the relationships between the `Character` class and the strategy interfaces/implementations:
-
-![UML Diagram](UMLDiagram.png)
-
-## Build & Run
-
-Compile all `.java` files and run `GameApp`:
-
-```bash
-javac *.java
-java GameApp
-```
-
-You should see output demonstrating each character's attack and defense actions.
-
-## Project structure
-
-- AttackStrategy.java
-- DefenseStrategy.java
-- SwingSword.java
-- CastSpell.java
-- ShootArrow.java
-- Shield.java
-- Dodge.java
-- CreateMagic.java
-- Character.java
-- GameApp.java
-- UMLDiagram.png
-
-## Notes
-
-- Each class/interface is defined in its own file to follow Java conventions.
-- The UML image is included in the repository and referenced so it renders on GitHub.
